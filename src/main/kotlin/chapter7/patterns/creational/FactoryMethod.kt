@@ -12,9 +12,9 @@ enum class Brand {
 }
 
 interface Car
-class Mercedes: Car
+open class Mercedes: Car
 class BMW: Car
-class Honda: Car
+open class Honda: Car
 class Mazda: Car
 
 class CarFactory {
