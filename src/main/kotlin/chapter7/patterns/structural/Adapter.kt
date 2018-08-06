@@ -1,11 +1,18 @@
 package chapter7.patterns.structural
 
+import java.io.FileOutputStream
+import java.io.OutputStream
+
 interface Barkable {
-    fun bark()
+    fun bark() {
+        println("bark")
+    }
 }
 
 interface Meowable {
-    fun meow()
+    fun meow() {
+        println("meow")
+    }
 }
 
 class Cat(private val meowable: Meowable) {
@@ -21,12 +28,7 @@ class Dog(private val barkable: Barkable) {
 }
 
 class Adapter: Barkable, Meowable {
-    override fun bark() {
-        println("Bark")
-    }
-
     override fun meow() {
-        println("meow")
         bark()
     }
 }
