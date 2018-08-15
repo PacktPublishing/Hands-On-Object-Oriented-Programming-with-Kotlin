@@ -1,8 +1,12 @@
 package chapter7.patterns.creational
 
-fun main(args: Array<String>) {
-    val e220 = FactoryProducer().produceFactory(Brand.MERCEDES).createCar(MercedesModel.E220)
-}
+import kotlinx.coroutines.experimental.delay
+import kotlinx.coroutines.experimental.launch
+import kotlinx.coroutines.experimental.runBlocking
+
+//fun main(args: Array<String>) {
+//    val e220 = FactoryProducer().produceFactory(Brand.MERCEDES).createCar(MercedesModel.E220)
+//}
 
 interface Model
 
