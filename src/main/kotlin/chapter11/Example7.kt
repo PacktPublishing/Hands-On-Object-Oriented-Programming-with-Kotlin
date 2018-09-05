@@ -15,11 +15,13 @@ class ToDoStorage {
 
     operator fun get(name: String) = todos[name]
 
-    operator fun set(name: String, todo: ToDo) {
+    operator fun set(name: String, todo: ToDo): Boolean {
         if (todos.contains(name)) {
             throw ToDoAlreadyExistException()
         }
         todos[name] = todo
+
+        return true
     }
 }
 
