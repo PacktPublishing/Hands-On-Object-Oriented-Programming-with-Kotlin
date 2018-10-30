@@ -1,4 +1,4 @@
-package Chapter9.CallJavaFromKotlin
+package Chapter08.CallJavaFromKotlin
 
 import java.util.*
 

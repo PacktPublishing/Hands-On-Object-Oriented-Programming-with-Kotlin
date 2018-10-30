@@ -1,4 +1,4 @@
-package Chapter9.CallKotlinFromJava;
+package Chapter08.CallKotlinFromJava;
 
 class FromKotlinClass {
 

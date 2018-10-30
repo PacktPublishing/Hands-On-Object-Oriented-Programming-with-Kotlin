@@ -1,5 +1,5 @@
 @file:JvmName("KotlinUtil")
-package Chapter9.CallKotlinFromJava
+package Chapter08.CallKotlinFromJava
 
 
 fun addition (a: Int, b : Int){

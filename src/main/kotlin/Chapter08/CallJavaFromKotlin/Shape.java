@@ -1,4 +1,4 @@
-package Chapter9.CallJavaFromKotlin;
+package Chapter08.CallJavaFromKotlin;
 
 /**
  * Created by KHAN on 2018-10-23.
