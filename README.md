@@ -30,7 +30,7 @@ The code will look like the following:
 ```
 val range = 1..10
 for (value in range){
-println(value)
+  println(value)
 }
 ```
 
