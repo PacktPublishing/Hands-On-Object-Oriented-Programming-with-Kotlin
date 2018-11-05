@@ -24,7 +24,7 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+Almost all the code files are present in the "src/main" directory, however, there is a separate test project for Chapter11 in "src/test" directory. All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
 ```
